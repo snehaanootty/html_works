@@ -1,0 +1,24 @@
+/* selectelement{
+    property} */
+    /* tag/id/class selector :property; */
+body{
+    background-color: black;
+
+}
+h1{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+/* select element  using id, we have to apply #(id selector is #)  */
+#first{
+    color: yellow;
+    text-align: left;
+    text-decoration: none;
+}
+
+/* select element using class, use dot(.) */
+.brand{
+    color: blueviolet;
+}
+/* we use same class name for apply same property in different tags... but id is unic we can use only in one tag */

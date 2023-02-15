@@ -1,0 +1,37 @@
+h1{
+    text-align: center;
+    color: #66ff66
+    ;
+
+}
+
+.section
+{
+    width: 500px;
+    height: 300px;
+    border: 2px black solid;
+}
+.row1{
+    background-color: blueviolet;
+}
+.row2{
+    background-color: cadetblue;
+}
+.row3{
+    background-color:#ff9933
+    ;
+}
+div{
+    color:green;
+}
+.select{
+    width: 600px;
+    height: 200px;
+    border: 2px black solid;
+}
+.row4{
+    background-color: chocolate;
+}
+.row5{
+    background-color: crimson;
+}
