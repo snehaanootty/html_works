@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+}
+.container{
+    width: 80%;
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    margin-left:auto;
+    margin-right: auto;
+    
+    
+
+}
+.child{
+    width: 30%;
+}
+.child img{
+    width: 100%;
+}
+.child-header {
+    text-align: center;
+    background-color: gray;
+    /* height: 80px; */
+    /* margin-top: 20px; */
+    padding: 20px;
+    color: white;
+
+}
+
+.child:nth-child(2) .child-header{
+    background-color: red;
+}
+.child-body p{
+    text-align: center;
+}
+ ul{
+    list-style: none;
+ }
+
+.

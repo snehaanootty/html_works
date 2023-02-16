@@ -1,0 +1,119 @@
+body{
+    background-color: black;
+}
+h3{
+    color: white;
+    text-align: center;
+}
+.parent{
+    width: 100%;
+    background-color: black;
+    margin-left: 250px;
+}
+.section{
+    width: 100px;
+    height: 150px;
+    border: 1px solid black;
+    background-color: antiquewhite;
+    float: left;
+    margin-left: 10px;
+    
+}
+.section:nth-child(1){
+    background-color: gray;
+    
+    
+}
+.section:nth-child(2){
+    background-color:#206131 ;
+    
+}
+.section:nth-child(3){
+    background-color: #09de41;
+    
+}
+.section:nth-child(4){
+    background-color: #17fa02;
+   
+}
+.section:nth_child(5){
+    
+}
+.parent1{
+    width: 100%;
+    background-color: black;
+    margin-left: 130px;
+    margin-top: 200px;
+}
+.child{
+    width: 100px;
+    height: 150px;
+    border:1px solid black;
+    background-color: blueviolet;
+    float: left;
+    margin-left: 10px;
+}
+.child:nth-child(1){
+    background-color: orange;
+}
+.child:nth-child(2){
+    background-color:#e05a38 ;
+}
+.child:nth-child(3){
+    background-color:#b88072 ;
+}
+.child:nth-child(4){
+    background-color:#987db8 ;
+}
+.child:nth-child(5){
+    background-color: #850bbd;
+}
+.child:nth-child(6){
+    background-color: #8b5da1;
+}
+.child:nth-child(7){
+    background-color:#847e87 ;
+}
+.parent2{
+    width: 100%;
+    background-color: black;
+    margin: 80px;
+    margin-top: 400px;
+    margin-left: 30px;
+}
+.sub{
+    width: 100px;
+    height: 150px;
+    border: 1px solid black;
+    background-color: #e05a38;
+    float: left;
+    margin-left: 10px;
+}
+.sub:nth-child(1){
+    background-color:#5cdbd7 ;
+}
+.sub:nth-child(2){
+    background-color:#64fc05;
+}
+.sub:nth-child(3){
+    background-color:#f7af31 ;
+}
+.sub:nth-child(4){
+    background-color: #ed0c39;
+}
+.sub:nth-child(5){
+    background-color: #1f080c;
+}
+.sub:nth-child(6){
+    background-color: #5cdbd7;
+}
+.sub:nth-child(7){
+    background-color:#3dad66;
+}
+.sub:nth-child(8){
+    background-color:#753d94;
+}
+.sub:nth-child(9){
+    background-color:#331742 ;
+}
+

@@ -1,0 +1,48 @@
+.parent{
+    width: 100%;
+    height: 300px;
+    background-color: blueviolet;
+    border: 2px solid black;
+    
+}
+.child{
+    width: 30%;
+    height: 200px;
+    border: 1px solid black;
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+
+}
+.child:nth-child(1){
+    background-color: bisque;
+
+}
+.child:nth-child(2){
+    background-color: brown;
+}
+.child:nth-child(3){
+    background-color: cadetblue;
+}
+.master{
+    width: 600px;
+    height: 250px;
+    background-color: aquamarine;
+    border: 1px solid black;
+    margin-left: 300px;
+    margin-top: 40px;
+}
+.sub{
+    width: 35%;
+    height: 200px;
+    border: 1px solid black;
+    float: left;
+    margin-left: 60px;
+    margin-top: 25px;
+}
+.sub:nth-child(1){
+    background-color: chocolate;
+}
+.sub:nth-child(2){
+    background-color: crimson;
+}
