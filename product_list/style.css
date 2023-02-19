@@ -6,7 +6,7 @@ body{
 }
 .container{
     width: 80%;
-    height: 500px;
+    height: 520px;
     border: 1px solid black;
     display: flex;
     justify-content: space-between;
@@ -43,11 +43,15 @@ body{
 }
  ul{
     list-style: none;
+    
+ }
+ ul li{
+    line-height: 30px;
  }
 .button{
 
     margin-left:100px;
-    margin-top: 40px;
+    margin-top: 20px;
     background-color: red;
     color: white;
     justify-content: space-evenly;
@@ -55,4 +59,8 @@ body{
     border: white;
    
 
+}
+.fa-bookmark{
+    color: red;
+    margin-right: 10px;
 }
