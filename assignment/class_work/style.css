@@ -1,0 +1,40 @@
+/* .container{
+    width: 40%;
+    height: 700px;
+    background-color: white;
+    margin: auto;
+    border: 2px solid black; */
+/* } */
+.row1,.row4{
+    width: 60%;
+    height: 100px;
+    background-color: blueviolet;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px white solid;
+}
+.row2,.row3{
+    width: 30%;
+    height: 100px;
+    margin-right: auto;
+    background-color: blueviolet;
+    margin-top: 20px;
+    border: 1px white solid;
+}
+.row4{
+    background-color: aqua;
+}
+.row3{
+    background-color: blue;
+}
+.row2{
+    background-color: blanchedalmond;
+}
+@media screen  and (max-width:700px){
+    .container{
+        width: 80%;
+        margin: auto;
+        margin-top: 5px;
+    }
+    
+}

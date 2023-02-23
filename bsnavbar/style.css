@@ -1,0 +1,13 @@
+.fs{
+    font-family: 'Labrada', serif;
+}
+.f{
+    font-family: 'Shantell Sans', cursive;
+}
+.card img{
+    height: 300px;
+    width: 100%;
+}
+.fa-brandS{
+    display: flex;
+}

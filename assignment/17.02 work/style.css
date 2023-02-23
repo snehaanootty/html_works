@@ -69,5 +69,24 @@ img{
     margin-top: 20px;
 }
 .child-bottom{
-    margin-top: 60px;
+    display: flex;
+    margin-top: 50px;
+}
+.percent{
+    margin-left: 100px;
+}
+.vocal{
+    margin-left: 30px;
+}
+.percentage{
+    margin-left: 100px;
+}
+@media(max-width:750px){
+   .child{
+    display: flex;
+    flex-direction: column;
+   }
+   .row1 h1{
+    margin-left: -130px;
+   }
 }
